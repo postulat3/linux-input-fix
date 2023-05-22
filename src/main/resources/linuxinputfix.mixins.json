@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.postulat3.linuxinputfix.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "InputFixMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "linuxinputfix",
+  "version": "${version}",
+  "name": "Linux Input Fix",
+  "description": "Fixes MC-12410, where shift+2 and shift+6 do not work",
+  "authors": [
+    "postulat3"
+  ],
+  "contact": {
+    "sources": "https://github.com/postulat3/linux-input-fix"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/linuxinputfix/icon.png",
+  "environment": "client",
+  "entrypoints": {
+
+  },
+  "mixins": [
+    "linuxinputfix.mixins.json"
+  ],
+  "custom": {
+    "modmenu:clientsideOnly": true
+  },
+  "depends": {
+    "fabricloader": ">=0.14.19",
+    "minecraft": "1.8.9"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
